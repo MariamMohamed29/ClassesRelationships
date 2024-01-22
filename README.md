@@ -3,7 +3,7 @@
 ### 1-Association:
 Association represents a relationship between two classes where objects of one class are connected to objects of another class. It can be a one-to-one, one-to-many, or many-to-many relationship. **For example**, a Car class may be associated with a Driver class, where each car has a driver.
 ### 2-Aggregation:
-Aggregation is a specialized form of association where one class represents a whole and another class represents a part. The part can exist independently of the whole. It is denoted by a diamond-shaped arrow.**For example**, a Organization class may have an aggregation relationship with a Person class, where a Person is a part of the Organization.
+Aggregation is a specialized form of association where one class represents a whole and another class represents a part. The part can exist independently of the whole. It is denoted by a diamond-shaped arrow.**For example**, an Organization class may have an aggregation relationship with a Person class, where a Person is a part of the Organization.
 ### 3-Composition:
 Composition is a stronger form of aggregation where the part cannot exist without the whole. The lifetime of the part is controlled by the whole. It is denoted by a filled diamond-shaped arrow.**For example**, a Car class may have a composition relationship with a Engine class, where a Engine cannot exist without the Car.
 ### 4-Inheritance:
